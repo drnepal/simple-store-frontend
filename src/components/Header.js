@@ -5,9 +5,8 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   const [value, setValue] = useState();
   return (
-    // //  Allows to insert css in the div React materialUI sx
-    <div> 
-     <AppBar sx={{ backgroundColor: "#232F3D" }} position="sticky">
+    <div>
+      <AppBar sx={{ backgroundColor: "#232F3D" }} position="sticky">
         <Toolbar>
           <NavLink to="/" style={{ color: "white" }}>
             <Typography>

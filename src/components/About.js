@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-
-const About = () => {
+import Store from "./store";
+const About = (props) => {
   return (
     <div>
       <Box display="flex" flexDirection="column" alignItems="center">
@@ -12,6 +12,9 @@ const About = () => {
           -One Place for All
         </Typography>
       </Box>
+      <div>
+        <Store />
+      </div>
     </div>
   );
 };
